@@ -1,0 +1,39 @@
+img {
+    width: 50px;
+}
+#face {
+    width: 400px;
+}
+#mouth2 {
+    width: 150px;
+    position: absolute;
+    top: 275px;
+    left: 125px;
+}
+#sunglasses {
+    width: 400px;
+    position: absolute;
+    top: 150px;
+    left: 15px;
+}
+#hair1 {
+    width: 315px;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+#power {
+    animation: power 15s linear infinite;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    font-size: 25pt;
+    transition: top .1s ease-in-out;
+}
+@keyframes power {
+    100% { -webkit-transform: rotate(360deg);}
+}
+#power:hover {
+    top: 0%;
+}
